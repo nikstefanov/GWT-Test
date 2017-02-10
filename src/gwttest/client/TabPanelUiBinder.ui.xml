@@ -1,0 +1,20 @@
+<!DOCTYPE ui:UiBinder SYSTEM "http://dl.google.com/gwt/DTD/xhtml.ent">
+<ui:UiBinder xmlns:ui="urn:ui:com.google.gwt.uibinder"
+	xmlns:g="urn:import:com.google.gwt.user.client.ui">
+	<ui:style>		
+	</ui:style><!-- 
+	<g:HTMLPanel> -->
+		<g:TabPanel>
+			<g:Tab text='Tab1'>
+				<g:Label>1</g:Label>
+			</g:Tab>
+			<g:Tab>
+				<g:TabHTML><b>Label1</b></g:TabHTML>
+				<g:Label>2</g:Label>
+			</g:Tab>
+			<g:Tab text='Tab3'>
+				<g:Label>Neshto!</g:Label>
+			</g:Tab>
+		</g:TabPanel><!-- 
+	</g:HTMLPanel> -->
+</ui:UiBinder>  

@@ -1,0 +1,18 @@
+<!DOCTYPE ui:UiBinder SYSTEM "http://dl.google.com/gwt/DTD/xhtml.ent">
+<ui:UiBinder xmlns:ui="urn:ui:com.google.gwt.uibinder"
+	xmlns:g="urn:import:com.google.gwt.user.client.ui">
+	<ui:style>
+		
+	</ui:style>
+	<g:HTMLPanel>
+		<g:RichTextArea>
+			First
+		</g:RichTextArea>
+		<g:RichTextArea>
+			Second
+		</g:RichTextArea>
+		<g:RichTextArea>
+			Third
+		</g:RichTextArea>
+	</g:HTMLPanel>
+</ui:UiBinder> 

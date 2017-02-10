@@ -1,0 +1,27 @@
+<!DOCTYPE ui:UiBinder SYSTEM "http://dl.google.com/gwt/DTD/xhtml.ent">
+<ui:UiBinder xmlns:ui="urn:ui:com.google.gwt.uibinder"
+	xmlns:g="urn:import:com.google.gwt.user.client.ui"
+	xmlns:p="urn:import:gwttest.client">
+	<ui:style>		
+	</ui:style>
+	
+	<g:HTMLPanel>
+		<p>	
+			<p:TextBoxUF/><p:TextBoxUF/><p:TextBoxUF/><p:TextBoxUF/><p:TextBoxUF/><p:TextBoxUF/>
+		</p>
+		<div>
+			Ala Bala
+		</div>
+		<div>
+			<p:TextBoxUF>
+				Division 2
+			</p:TextBoxUF>
+			<p:TextBoxUF/>
+			<div>
+				Heading 3
+				<p:TextBoxUF/>
+				<p:TextBoxUF/>
+			</div>
+		</div>
+	</g:HTMLPanel>
+</ui:UiBinder> 
